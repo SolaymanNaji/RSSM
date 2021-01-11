@@ -131,6 +131,9 @@ body {}
 /*----------------------------------------*/
 /*  3. All Nested Class
 /*----------------------------------------*/
+.profile-info-inner {
+
+}
 .product-sales-chart, .analytics-info-cs, .tranffic-als-inner, .analytics-rounded, .single-new-trend, .personal-info-wrap, .author-widgets-single, .calender-inner, .product-status-wrap, .review-tab-pro-inner, .income-dashone-total, .analytics-edu-wrap, .analytics-sparkle-line, .analysis-progrebar, .sparkline8-list, .sparkline9-list, .sparkline7-list, .sparkline10-list, .sparkline12-list, .sparkline13-list, .sparkline14-list, .sparkline13-list, .sparkline11-list, .x-editable-list, .code-editor-single, .blog-details-inner, .charts-single-pro, .about-sparkline, .sparkline-list, .button-ad-wrap, .tab-content-details, .sparkline16-list, .sparkline15-list, .tinymce-single, .single-product-item, .courses-inner, .single-latest-item, .product-payment-inner-st, .profile-info-inner, .contact-panel, .widget-int-shape, .social-media-edu{
 	padding:20px;
 	background:#fff;
@@ -1326,7 +1329,11 @@ ul.tab-custon-design, ul.tab-review-design {
     background: #fff;
 }
 .profile-details-hr {
-    margin-top: 20px;
+    margin: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    float:left;
+    left: 100px;
 }
 .address-hr p{
 	font-size:15px;
@@ -3726,6 +3733,8 @@ div#sparklinehome canvas {
     background: #006DF0;
 	padding: 20px 0px;
     text-align: center;
+    position: relative;
+    bottom: 0;
 }
 .message-single-top h1, .notification-single-top h1 {
     border-bottom: 1px solid #F6F8FA;
@@ -4645,7 +4654,8 @@ div#sparklinehome canvas {
 	border-width: 0px;
 }
 .profile-img img{
-	width:100%;
+	width:50%;
+	float:left;
 }
 .c3-align-dlt{
 	display:none;
